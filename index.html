@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quack V.2!</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+    <header>
+        <h1>You’ve officially waddled into the right place. <br>Welcome!</h1>
+        <p style="color: #ffffff;"> This is a fansite, where ducks rule the pond!<br>Welcome to my little corner of the internet, where ducks are the stars of the show!<br>I've always been a big fan of these adorable, funny and slightly chaotic little birds, <br>so I decided to turn my love for ducks into a small interactive fansite.</p>
+        <p style="color: #ffae00;">Made with ❤️ by Shelby van Deursen | Creative Technology assignment CMD1 26/27</p>
+        </p>
+    <a style="color: #fafafa" href="https://www.instagram.com/m0nyetkecil/">Come quack with me on Instagram!</a>
+<a style="color: #f5f3f1" href="https://www.avans.nl/">And click here to visit my schoolpage!</a>    
+    </header>
+    <div class="venster-links">
+        <img src="images/content.png" alt="Window" class="vensterlinks">
+        <img src="images/factsduck.png" alt="Duck" class="factsduck" onclick="toonfeit()">
+        <p class="feittitel">Click on the duck in the window to see interesting facts!</p>
+        <p id="feittekst" class="vensterfeit"></p>
+    </div>
+<div class="venster-rechts">
+    <img src="images/content.png" alt="Window" class="vensterrechts">
+    <img src="images/factsduck.png" alt="Duck" class="duck" onclick="gotolink()">
+    <p class="windowtitel">Click on the duck to buy or adopt a duck!</p>
+    <p id="ownertekst" class="vensterfeit"></p>
+    <img src="images/wd.gif" alt="Little Duck" class="walkingduck">
+</div>
+<div class="venster-midden">
+    <img src="images/content.png" alt="Window" class="venstermidden">
+<iframe 
+    class="youtube-venster"
+    src="https://www.youtube.com/embed/BGZ0QOBvXYY"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+    <p class="windowtitel2">Watch this video!</p>
+    <p id="feittekst2" class="vensterfeit"></p>
+    <img src="images/wd.gif" alt="Little Duck" class="walkingduck">
+</div>
+    <script src="script.js"></script>
+    <audio autoplay loop> 
+  <source src="sounds/bgmusic.mp3" type="audio/mpeg">
+</body>
+</html>
